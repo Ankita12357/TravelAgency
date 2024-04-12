@@ -468,25 +468,144 @@ ul{
    height: 712px;
    
 }
+
 @media only screen and (max-width:1017px){
     .services-container{
         align-items: center;
         margin: 0px 0px;
     }
-    #services{
-       
-       
-       
-    }
+   
    #contact .h-primary{
        padding-right: 0px;
        padding-left: 12px;
    }
    #contact p{
         padding-right: 0px;
+        padding: 31px 10px;
    }
    #contact h3,a{
-    padding-left: 0px;
     justify-content: center;
+    padding-left: 48px;
+  }
 }
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 1017px) {
+    #navbar {
+        padding: 0 5%;
+    }
+
+    #navbar ul {
+        flex-direction: row;
+    }
+
+    #navbar ul li {
+        margin-right: -30px;
+    }
+
+    #navbar-contact {
+        padding: 0 5%;
+    }
+
+    #navbar-contact ul {
+        flex-direction: row;
+    }
+
+    #navbar-contact ul li {
+        margin-right: 20px;
+    }
+    #home,
+    #services {
+        padding: 0px 1px;
+    display: block;
+    margin: 84px 46px;
+
+        
+    }
+
+    .services-container {
+        margin: 34px 10%;
+    }
+    #services .box img{
+        width: 90%;
+    }
+    #clients img {
+        height: 37px;
+      }
+    .footer-col {
+        width: 44%;
+        padding: 0 12px;
+
+    }
+
+    #col {
+        flex-direction: column; /* Adjusted for responsiveness */
+        align-items: center; /* Adjusted for responsiveness */
+        margin: 10px; /* Adjusted for responsiveness */
+    }
+
+    #col .col2 h1 {
+        padding-right: 0; /* Adjusted for responsiveness */
+        margin-top: 0; /* Adjusted for responsiveness */
+    }
+
+    #col .col1 img {
+        margin-bottom: 20px; /* Adjusted for responsiveness */
+        height: auto; /* Adjusted for responsiveness */
+        max-width: 100%; /* Adjusted for responsiveness */
+    }
+}
+
+
+
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 1017px) {
+    #contact-box {
+        flex-direction: column;
+        padding: 125px 49px;
+    }
+
+    #contact-box input,
+    #contact-box textarea {
+        width: calc(100% - 20px);
+    }
+
+    #contact-box form {
+        width: 100%;
+    }
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 1017px) {
+    .gallery .box,
+    .gallery1 .box {
+        width: calc(50% - 32px); /* Adjusted for responsiveness */
+    }
+    #gallery{
+        display:block;
+    }
+    #gallery1{
+        display:block;
+    }
+    #gallery .box img{
+        height:121px;
+    }
+    #gallery1 .box img{
+        height:121px;
+    }
+
+    #gallery .box,
+    #gallery1 .box {
+        flex-basis: calc(50% - 20px);
+
+    }
+    #abt {
+        padding: 42px 10px;
+    }
+
+    #gallery .box,
+    #gallery1 .box {
+        flex: 0 1 calc(50% - 20px);
+    }
 }
